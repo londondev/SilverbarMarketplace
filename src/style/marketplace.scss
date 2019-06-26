@@ -1,0 +1,42 @@
+.container{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.order-form-container {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+.content {
+  width: 80%;
+  float: left;
+}
+
+.order-summary {
+  float: left;
+}
+
+#table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 1.2rem;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  rgb(102, 102, 102);
+  color: white;
+}

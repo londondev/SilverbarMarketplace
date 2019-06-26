@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order Summary should match the snapshot 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <th
+          colSpan="2"
+        >
+          Order Summary(
+          Test header
+          )
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Unit Price
+        </th>
+        <th>
+          Quantity
+        </th>
+      </tr>
+      <tr>
+        <td>
+          £
+          100
+        </td>
+        <td>
+          200
+        </td>
+      </tr>
+      <tr>
+        <td>
+          £
+          200
+        </td>
+        <td>
+          400
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
